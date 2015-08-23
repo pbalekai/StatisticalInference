@@ -1,7 +1,7 @@
 ---
 title: 'Statistical Inference Course Project, Part 1: Simulation Exercises'
 author: "Pavitra Balekai"
-output: pdf_document
+output: html_document
 ---
 
 The exponential distribution can be simulated in R with `rexp(n, lambda)` where

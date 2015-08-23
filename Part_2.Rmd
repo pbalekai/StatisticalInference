@@ -1,8 +1,8 @@
 ---
-title: "Statistical Inference Course Project, Part 2: Basic Inferential Data Analysis"
+title: 'Statistical Inference Course Project, Part 2: Basic Inferential Data Analysis'
 author: "Pavitra Balekai"
 date: "August 22, 2015"
-output: pdf_document
+output: html_document
 ---
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
@@ -166,11 +166,11 @@ Interpreting the first row of the table for illustriation:
 We are 95% confident that the average tooth length of guinea pigs who received a 2mg dose of vitamin C is on average `r round(pairwise_results$conf.low[1], 2)` to `r round(pairwise_results$conf.high[1], 2)` millimeters higher than those who received a 1mg dose.
 
 
-# Conclusions
+# Conclusion
 
 We were able to show that the observed difference of tooth length mean across supplement types is statistically not different from 0.
 
-However, we were able to highlight the fact that tooth length indeed varies across groups of dose levels and that all of those differences are statistical and pramatically significant. 
+However, we were able to highlight the fact that tooth length indeed varies across groups of dose levels and that all of those differences are statistical and significant. 
 
-A latter study might take into account pairwise t-tests of the different supplement types/dose level combinations.
+
 
